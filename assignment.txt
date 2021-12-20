@@ -1,3 +1,26 @@
+//Assignment
+
+const students = [
+    {
+        rollNum: 1,
+        name: 'Sam',
+        marks: {
+            maths: 10,
+            phy: 20,
+            chem: 21
+        }
+    },
+    {
+        rollNum: 1,
+        name: 'David',
+        marks: {
+            maths: 40,
+            phy: 10,
+            chem: 43
+        }
+    },
+];
+
 //Find the maths topper
 //Find average maths marks
 //Create overall raning

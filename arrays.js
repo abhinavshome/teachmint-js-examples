@@ -21,25 +21,3 @@ const sumOfArrayElements = numbers.reduce((e, res) => e + res, 0);
 const highest = numbers.reduce((e, res) => e > res ? e : res, numbers[0]);
 console.log(sumOfArrayElements, highest);
 
-//Assignment
-
-const students = [
-    {
-        rollNum: 1,
-        name: 'Sam',
-        marks: {
-            maths: 10,
-            phy: 20,
-            chem: 21
-        }
-    },
-    {
-        rollNum: 1,
-        name: 'David',
-        marks: {
-            maths: 40,
-            phy: 10,
-            chem: 43
-        }
-    },
-];
