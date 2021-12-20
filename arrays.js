@@ -17,7 +17,7 @@ console.log(result1, result2, result3);
 
 const numbers = [2,8,19,11];
 
-const sumOfArrayElements = numbers.reduce((e, res) => e + res, 0);
-const highest = numbers.reduce((e, res) => e > res ? e : res, numbers[0]);
+const sumOfArrayElements = numbers.reduce((res, e) => e + res, 0);
+const highest = numbers.reduce((res, e) => e > res ? e : res, numbers[0]);
 console.log(sumOfArrayElements, highest);
 
