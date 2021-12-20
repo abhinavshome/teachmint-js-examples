@@ -1,0 +1,14 @@
+//Find the maths topper
+//Find average maths marks
+//Create overall raning
+// [
+//     {rank: 1, name: 'Sam', total: 220},
+//     {rank: 1, name: 'Sam', total: 220},
+//     {rank: 1, name: 'Sam', total: 220},
+// ]
+//Find overall average result
+// {
+//     maths: 20.22,
+//     chem: 21.33,
+//     phy: 21.22
+// }
